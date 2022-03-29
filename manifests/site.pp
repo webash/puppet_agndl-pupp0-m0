@@ -5,3 +5,7 @@ node default {
     owner => 'root',
   }
 }
+
+node agndl-pupp0-m0 {
+  include role::master_server
+}
